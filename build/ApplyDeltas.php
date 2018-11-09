@@ -67,8 +67,8 @@ try {
     exit(1);
 }
 
-require $shopPath . '/engine/Shopware/Components/Migrations/AbstractMigration.php';
-require $shopPath . '/engine/Shopware/Components/Migrations/Manager.php';
+require $shopPath . '/vendor/shopware/shopware/engine/Shopware/Components/Migrations/AbstractMigration.php';
+require $shopPath . '/vendor/shopware/shopware/engine/Shopware/Components/Migrations/Manager.php';
 require __DIR__ . '/../src/Components/Migrations/Manager.php';
 
 $modeArg = getopt('', array('mode:'));
